@@ -30,9 +30,6 @@ Este repositório inclui:
 * Dependências básicas
 * Configurações mínimas para iniciar o desenvolvimento
 
-Você pode alterar absolutamente tudo:
-organização de pastas, componentes, estilos, estrutura, libs adicionais etc.
-
 ## O que deve ser implementado
 
 ### **1. Home**
