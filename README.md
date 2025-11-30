@@ -20,7 +20,7 @@ Acesse o layout completo:
 
 Abaixo estão as telas que você deve implementar.
 
-![QuizzODS](./docs/QuizzOds.png)
+![QuizzODS](./docs/QuizzOds.svg)
 
 ## O que já vem neste repositório
 
