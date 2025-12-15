@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  height: 56px;
+  align-items: center;
+  gap: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #334155;
+  width: 100%;
+  height: 56px;
+  border: 1px solid #b9b9b9;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: none;
+  }
+}
+
+.body {
+  margin-top: 56px;
+  background-color: #fff;
+}
