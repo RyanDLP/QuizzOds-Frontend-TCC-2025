@@ -2,7 +2,7 @@ import "./style.css";
 
 import { Link } from "react-router-dom";
 import { mockOds } from "../../mocks/Ods";
-import NavBar from "../../components/Navbar/Index";
+import NavBar from "../../components/Navbar";
 
 export default function Home() {
   return (

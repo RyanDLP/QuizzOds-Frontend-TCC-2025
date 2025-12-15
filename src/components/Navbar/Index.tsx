@@ -1,4 +1,4 @@
-import "./Index.css";
+import "./style.css";
 
 import {
   Home,

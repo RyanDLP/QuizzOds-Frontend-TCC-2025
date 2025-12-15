@@ -1,12 +1,13 @@
 import "./style.css";
 
-import NavBar from "../../components/Navbar/Index";
-import QuizCard from "../../components/QuizCard/QuizCard";
+import NavBar from "../../components/Navbar";
+import QuizCard from "../../components/QuizCard";
 import { useNavigate } from "react-router-dom";
 import { mockQuiz } from "../../mocks/Quiz";
 
 export default function QuizzesList() {
   const navigate = useNavigate();
+
   return (
     <div className="quiz-container">
       <NavBar>

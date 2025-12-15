@@ -1,0 +1,17 @@
+.nav-quiz {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+button {
+  padding: 10px 0 0 10px;
+  background-color: transparent;
+}
+
+p {
+  padding: 10px 10px 0 0;
+}
