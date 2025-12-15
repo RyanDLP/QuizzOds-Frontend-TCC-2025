@@ -2,12 +2,12 @@ import "./style.css";
 
 import { Link } from "react-router-dom";
 import { mockOds } from "../../mocks/Ods";
-import NavBar from "../../components/Navbar/index";
+import { BottomBar } from "../../components/BottomBar/index";
 
 export default function Home() {
   return (
     <div>
-      <NavBar>
+      <BottomBar>
         <div className="home-wrapper">
           <ul className="home-content">
             {mockOds.map((ods) => (
@@ -26,7 +26,7 @@ export default function Home() {
             ))}
           </ul>
         </div>
-      </NavBar>
+      </BottomBar>
     </div>
   );
 }

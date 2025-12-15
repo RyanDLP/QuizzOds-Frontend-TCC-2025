@@ -11,10 +11,10 @@ import { useNavigate } from "react-router-dom";
 
 type Props = { children?: ReactNode };
 
-const NavBar: React.FC<Props> = ({ children }) => {
+export const BottomBar: React.FC<Props> = ({ children }) => {
   const navigate = useNavigate();
   return (
-    <div className="navbar">
+    <div className="bottomBar">
       <header className="header">
         <Search className="search" />
         <Notifications className="notification" />
@@ -33,5 +33,3 @@ const NavBar: React.FC<Props> = ({ children }) => {
     </div>
   );
 };
-
-export default NavBar;

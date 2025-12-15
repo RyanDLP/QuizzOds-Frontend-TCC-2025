@@ -1,6 +1,6 @@
 import "./style.css";
 
-import NavBar from "../../components/Navbar";
+import { BottomBar } from "../../components/BottomBar";
 import QuizCard from "../../components/QuizCard";
 import { useNavigate } from "react-router-dom";
 import { mockQuiz } from "../../mocks/Quiz";
@@ -10,7 +10,7 @@ export default function QuizzesList() {
 
   return (
     <div className="quiz-container">
-      <NavBar>
+      <BottomBar>
         <div className="image-container">
           <img src="assets/nat_avatar.png" alt="nat_avatar" />
           <p>@natbezerra</p>
@@ -25,7 +25,7 @@ export default function QuizzesList() {
             />
           ))}
         </div>
-      </NavBar>
+      </BottomBar>
     </div>
   );
 }
