@@ -33,4 +33,6 @@ footer {
 .body {
   margin-top: 56px;
   background-color: #fff;
+  height: 100vh;
+  padding-bottom: 64px;
 }

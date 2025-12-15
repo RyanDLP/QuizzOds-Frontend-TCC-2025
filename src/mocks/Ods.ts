@@ -6,7 +6,7 @@ export const mockOds: OdItem[] = [
     title: "Erradicação da Pobreza",
     subtitleOd:
       "Acabar com a Pobreza em todas as suas formas, em todos os lugares.",
-    coverImage: "/ods1.svg",
+    coverImage: "/ods/ods1.svg",
     descriptionOd:
       "Este ODS é a prioridade zero da Agenda 2030, focando em acabar com a pobreza extrema (pessoas vivendo abaixo de uma linha de renda mínima internacional) e reduzir todas as formas de pobreza multidimensional (privação de direitos como saúde, educação e acesso a serviços). A meta é garantir um piso de proteção social para todos, aumentar a resiliência dos mais vulneráveis a choques e promover o acesso equitativo a recursos produtivos (terra, crédito e tecnologia).",
     resume:
@@ -22,7 +22,7 @@ export const mockOds: OdItem[] = [
     title: "Fome Zero e Agricultura Sustentavel",
     subtitleOd:
       "Acabar com a fome, alcançar a segurança alimentar e melhoria da nutrição e promover a agricultura sustentável.",
-    coverImage: "/ods2.svg",
+    coverImage: "/ods/ods2.svg",
     descriptionOd:
       "O ODS 2 visa acabar com a fome, garantindo segurança alimentar (acesso físico e econômico a alimentos) e melhorando a nutrição, que engloba a luta contra a subnutrição, o nanismo infantil e a má nutrição em geral. O segundo pilar é promover a agricultura sustentável, aumentando a produtividade e a renda dos pequenos produtores de forma resiliente ao clima.",
     resume:
@@ -38,7 +38,7 @@ export const mockOds: OdItem[] = [
     title: "Saúde e bem-estar",
     subtitleOd:
       "Assegurar uma vida saúdavel e promover o bem-estar para todos, em todas as idades.",
-    coverImage: "/ods3.svg",
+    coverImage: "/ods/ods3.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -48,7 +48,7 @@ export const mockOds: OdItem[] = [
     title: "Educação de Qualidade",
     subtitleOd:
       "Assegurar a educação inclusiva e equitativa de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos.",
-    coverImage: "/ods4.svg",
+    coverImage: "/ods/ods4.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -58,7 +58,7 @@ export const mockOds: OdItem[] = [
     title: "Igualdade de Gênero",
     subtitleOd:
       "Alcançar a igualdade de gênero e empoderar todas as mulheres e meninas.",
-    coverImage: "/ods5.svg",
+    coverImage: "/ods/ods5.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -68,7 +68,7 @@ export const mockOds: OdItem[] = [
     title: "Água Potável e Saneamento",
     subtitleOd:
       "Assegurar a disponibilidade e a gestão sustentável da água e saneamento para todos.",
-    coverImage: "ods6.svg",
+    coverImage: "oods/ds6.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -78,7 +78,7 @@ export const mockOds: OdItem[] = [
     title: "Energia Acessível e Limpa",
     subtitleOd:
       "Assegurar o acesso confiável, sustentável, moderno e a preço acessível à energia para todos.",
-    coverImage: "ods7.svg",
+    coverImage: "oods/ds7.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -88,7 +88,7 @@ export const mockOds: OdItem[] = [
     title: "Trabalho Decente e Crescimento Econômico",
     subtitleOd:
       "Promover o crescimento econômico sustentado, inclusivo e sustentável, emprego pleno e produtivo e trabalho decente para todos.",
-    coverImage: "ods8.svg",
+    coverImage: "oods/ds8.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -98,7 +98,7 @@ export const mockOds: OdItem[] = [
     title: "Indústria, Inovação e Infraestrutura",
     subtitleOd:
       "Construir infraestruturas resilientes, promover a industrialização inclusiva e sustentável e fomentar a inovação.",
-    coverImage: "ods9.svg",
+    coverImage: "oods/ds9.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -107,7 +107,7 @@ export const mockOds: OdItem[] = [
     id: "q10",
     title: "Redução das Desigualdades",
     subtitleOd: "Reduzir a desigualdade dentro dos países e entre eles.",
-    coverImage: "ods10.svg",
+    coverImage: "oods/ds10.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -117,7 +117,7 @@ export const mockOds: OdItem[] = [
     title: "Cidades e Comunidades Sustentáveis",
     subtitleOd:
       "Tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis.",
-    coverImage: "ods11.svg",
+    coverImage: "oods/ds11.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -126,7 +126,7 @@ export const mockOds: OdItem[] = [
     id: "q12",
     title: "Consumo e Produção Responsáveis",
     subtitleOd: "Assegurar padrões de produção e de consumo sustentáveis.",
-    coverImage: "ods12.svg",
+    coverImage: "oods/ds12.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -136,7 +136,7 @@ export const mockOds: OdItem[] = [
     title: "Ação Contra a Mudança Global do Clima",
     subtitleOd:
       "Tomar medidas urgentes para combater a mudança do clima e seus impactos.",
-    coverImage: "ods13.svg",
+    coverImage: "oods/ds13.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -146,7 +146,7 @@ export const mockOds: OdItem[] = [
     title: "Vida na Água",
     subtitleOd:
       "Conservar e usar de forma sustentável os oceanos, os mares e os recursos marinhos para o desenvolvimento sustentável.",
-    coverImage: "ods14.svg",
+    coverImage: "oods/ds14.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -156,7 +156,7 @@ export const mockOds: OdItem[] = [
     title: "Vida Terrestre",
     subtitleOd:
       "Proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres, gerir de forma sustentável as florestas, combater a desertificação, deter e reverter a degradação da terra e deter a perda de biodiversidade.",
-    coverImage: "ods15.svg",
+    coverImage: "oods/ds15.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -166,7 +166,7 @@ export const mockOds: OdItem[] = [
     title: "Paz, Justiça e Instituições Eficazes",
     subtitleOd:
       "Promover sociedades pacíficas e inclusivas para o desenvolvimento sustentável, proporcionar o acesso à justiça para todos e construir instituições eficazes, responsáveis e inclusivas em todos os níveis.",
-    coverImage: "ods16.svg",
+    coverImage: "oods/ds16.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
@@ -176,7 +176,7 @@ export const mockOds: OdItem[] = [
     title: "Parcerias e Meios de Implementação",
     subtitleOd:
       "Fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável.",
-    coverImage: "ods17.svg",
+    coverImage: "oods/ds17.svg",
     descriptionOd: "",
     resume: "",
     responsesOds: ["", "", ""],
