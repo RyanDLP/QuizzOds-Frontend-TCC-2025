@@ -1,6 +1,6 @@
 import "./style.css";
 
-import { BottomBar } from "../../components/BottomBar";
+import { BottomBar } from "../../components/Navbar";
 import QuizCard from "../../components/QuizCard";
 import { useNavigate } from "react-router-dom";
 import { mockQuiz } from "../../mocks/Quiz";
