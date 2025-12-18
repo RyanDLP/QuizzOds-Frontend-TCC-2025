@@ -1,122 +1,46 @@
-# QuizzODS — Front-end Challenge
+<h1 allign="center" >
+   ODS Quiz
+</h1>
 
-Este repositório contém o desafio front-end do **QuizzODS**, parte do Desafio Suplementar 2025 do Estartando Devs.
-O objetivo é implementar as telas fornecidas no Figma, integrar com a API da sua dupla e entregar uma aplicação funcional, organizada e fiel ao fluxo do projeto.
+<h1 allign="center" >
+    <img src="./public/assets/ods.gif" >
+</h1>
 
-## Sobre o desafio
+## Índice
 
-Você deve desenvolver o front-end do **QuizzODS**, um aplicativo simples para leitura das ODS e realização de quizzes temáticos.
-O projeto segue um fluxo definido no Figma, que deve ser respeitado.
+- [Sobre](#-sobre)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
 
-Este repositório já inclui um **boilerplate inicial**, mas você tem liberdade total para alterar, reorganizar ou expandir o projeto conforme achar necessário.
+## 📑 Sobre
 
-## 🎨 Layout (Figma)
+O aplicativo **ODS Quiz** é um aplicativo educativo que busca informar as pessoas sobre as ODS (Objetivos de Desenvolvimento Sustentável) da ONU em forma de um Quiz.
 
-Acesse o layout completo:
+---
 
-🔗 [Desafio Suplementar TCC 2025](https://www.figma.com/design/BIueXxPq9QG62vWj8OgOVh/Desafio-Suplementar-TCC-2025?node-id=0-1)
+## 💾 Tecnologias Utilizadas
 
-## 🖼️ Telas do Projeto
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Abaixo estão as telas que você deve implementar.
+- [React Native](https://reactnative.dev/)
+- [React Router](https://reactrouter.com/)
 
-![QuizzODS](./docs/QuizzOds.svg)
+---
 
-## O que já vem neste repositório
+## 📁 Como baixar o projeto
 
-Este repositório inclui:
+    # Clonar o repositório
+    $ git clone https://github.com/RyanDLP/QuizzOds-Frontend-TCC-2025.git
 
-* Estrutura inicial do projeto
-* Dependências básicas
-* Configurações mínimas para iniciar o desenvolvimento
+    # Entrar no diretório
+    $ cd QuizzOds-Frontend-TCC-2025
 
-## O que deve ser implementado
+    # Instalar as dependências
+    $ npm install
 
-### **1. Home**
+    # Iniciar o projeto
+    $ npm run dev
 
-* Listagem das 17 ODS
-* Navegação para a tela de conteúdo
+---
 
-### **2. Conteúdo da ODS**
-
-* Exibir o texto correspondente
-* Pode usar mock enquanto a API não estiver pronta
-
-### **3. Lista de Quizzes**
-
-* Listar quizzes disponíveis
-* Navegação para o quiz selecionado
-
-### **4. Tela do Quiz**
-
-* Pergunta
-* Opções
-* Feedback de acerto/erro
-
-### **5. Navegação**
-
-* Navbar inferior com abas **Início** e **Quiz**
-
-## Integração com o Back-end
-
-Sua dupla criará a API em **.NET**.
-Vocês devem alinhar juntos:
-
-* Estrutura dos dados
-* Rotas
-* Formato dos quizzes
-* Respostas e feedbacks
-
-O front deve consumir os dados reais assim que o back estiver pronto.
-
-## Como rodar o projeto
-
-1. Faça um fork deste repositório
-2. Clone o repositório da **sua conta**:
-
-   ```shell
-   git clone https://github.com/estartandodevs-course/QuizzOds-Frontend-TCC-2025.git
-   ```
-
-3. Instale as dependências:
-
-   ```shell
-   npm install
-   ```
-
-4. Execute o projeto:
-
-   ```shell
-   npm run dev
-   ```
-
-5. Configure a URL da API no momento da integração
-
-## Entrega
-
-A entrega deve conter:
-
-* Repositório público no GitHub (seu fork)
-* Aplicação funcional
-* Publicação do app em um serviço gratuito (ex: Vercel, Netlify, GitHub Pages) — inclua o link no README
-* Código organizado e versionado adequadamente
-* README atualizado
-* Integração real com a API
-* Histórico de commits legível
-
-## Critérios de Avaliação
-
-* Interface fiel ao fluxo do Figma
-* Boa organização e divisão de componentes
-* Integração com o back-end
-* Clareza do código
-* Colaboração e comunicação entre a dupla
-* Boas práticas de desenvolvimento
-* Code review entre os membros
-
-## Observações
-
-* Liberdade total para estilização, desde que mantenha o fluxo
-* É permitido mockar dados antes da API ficar pronta
-* Pode adicionar bibliotecas (Axios, Zustand, React Router, etc.)
-* O foco é entregar um app funcional, limpo e bem estruturado
+Desenvolvimento 🎮 por Ryan Doreto Louzã Prado
