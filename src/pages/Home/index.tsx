@@ -18,6 +18,7 @@ export default function Home() {
                   className="ods-big-image"
                   src={ods.coverImage}
                   alt={ods.title}
+                  loading="lazy"
                 />
                 <Link className="ods-read-more" to={`/ods/${ods.id}`}>
                   Ler mais
