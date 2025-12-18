@@ -21,13 +21,15 @@ footer {
   background: #fff;
   position: fixed;
   bottom: 0;
-  button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: none;
-  }
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: none;
+  color: #000;
 }
 
 .body {
